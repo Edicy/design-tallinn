@@ -1,0 +1,4 @@
+.clearfix {zoom:1;}
+* html #mainmenu ins { background-image: url('../images/mainmenu-spike.gif?1'); bottom: -25px;}
+h2 span.date {filter:alpha(opacity=20);}
+span.post-author {filter:alpha(opacity=50);}

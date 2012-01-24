@@ -1,0 +1,12 @@
+#front #greenheader h2, #front #greenheader h1 {
+  width: 660px;
+}
+.content-block {
+  width: 550px;
+}
+.sidebar {
+  width: 350px;
+}
+#footer .left {
+  width: 750px;
+}
