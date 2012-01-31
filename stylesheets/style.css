@@ -666,8 +666,5 @@ body .add-article {
   display: inline-block !important
 }
 textarea, input {outline: none;}
-.placeholder { color: #a1a1a1 !important }
-::-webkit-input-placeholder { color: #a1a1a1 !important }
-:-moz-placeholder { color: #a1a1a1 !important }
 
 html {  -webkit-text-size-adjust: none;	}
