@@ -278,22 +278,26 @@ white-space: normal;
     font-family: Museo300;
     color: #1c2b35;
    }
+   .form_error, .form_notice {
+     font-weight: bold;
+     padding: 5px;
+     margin-bottom: 10px
+   }
    .form_error {
      color: red;
-     font-weight: bold;
-     font-size: 12px;
      border: 1px dotted red;
-     padding: 5px;
-   }
-   .form_field_error {
-     color: red;
-     font-size: 10px;
-     line-height: 14px;
    }
    .form_notice {
      color: green;
      border: 1px dotted green;
-     padding: 5px;
+   }   
+   .form_field_error {
+     color: red;
+     font-size: 11px;
+     line-height: 14px;
+   }
+   .form_field_with_errors input, .form_field_with_errors textarea {
+       border: 1px solid red
    }
    .form_field {
     margin-bottom: 5px;
