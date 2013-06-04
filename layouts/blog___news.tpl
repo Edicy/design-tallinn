@@ -28,6 +28,18 @@
     <div id="body" class="clearfix wrapper">
   
   <div class="content-block left clearfix">
+    {% if tags %}
+        <div class="tagged-list-header">
+            <div class="header-tag-icon"></div>
+            {% if tags == empty %}
+                {{ "no_posts_tagged" | lc }}
+            {% else %}
+                {{ "posts_tagged" | lc }} '{{ tags | sort:"name" | map:"name" | join:"', '"}}'.
+            {% endif %}
+        </div>
+    {% endif %}
+  
+  
    {% addbutton class="add-article" %}
    <ul id="bloglist">{% for article in articles %}
     <li>
@@ -42,7 +54,6 @@
   </div>
   
   <div class="sidebar right clearfix">
-   {% include "Submenu" %}
    {% content name="sidebar" %}
   </div>
   

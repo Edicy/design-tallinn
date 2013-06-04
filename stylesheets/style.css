@@ -46,12 +46,11 @@ text-shadow: 0px -1px 1px white;
 }
 h3 {
 font-size: 16px;
-padding-left: 30px;
-margin: 20px 0 15px;
 font-family: Museo700, Helvetica, Arial, sans-serif;
-background: url('../images/h3-line.gif?1') no-repeat left 7px;
 text-transform: uppercase;
 font-weight: normal;
+margin: 0 0 10px;
+padding: 0;
 }
 h1, h2, h3 {
   word-wrap: break-word
@@ -199,7 +198,7 @@ white-space: normal;
    padding: 45px 40px 40px;
    background: url('../images/shadow-bottom.png?1') no-repeat center bottom, url('../images/shadow.png?1') no-repeat center top;
   }
-  #front #greenheader h2, #front #greenheader h1 {
+  .limited-width-heading {
    width: 70%;
   }
   .front-content {
@@ -411,7 +410,6 @@ white-space: normal;
   margin-top: 20px;
    }
     .comments h3 {
-     background-image: url('../images/h3-line-dark.gif?1');
     }
     .comments h3:first-child {
      margin-top: 10px;
@@ -475,6 +473,9 @@ white-space: normal;
   border-right: 1px solid #d3d3d3;
   padding-right: 10px
 }
+.postmetadata li:last-child a {
+    border-right: none;    
+}
   .blogmenu {
    list-style-type: none;
    padding: 0;
@@ -504,6 +505,43 @@ white-space: normal;
      margin-top: 0;
      font-size: 35px;
     }
+    
+/* article tags */
+.article-tags { margin-top: 20px; font-size: 14px; min-height: 1em; }
+.edy-tag-input { outline: none; }
+.article-tag-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url('../images/tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.tagged-list-header {
+    padding: 0;
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.header-tag-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url('../images/header-tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-top: -1px;
+    margin-right: 15px;
+}
+.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.tagged-list-header  a {border: none; text-decoration: none;}
+.tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
+.article-tags .edy-taglist { margin-left: 25px; }    
+    
 #footer {
   padding: 20px 40px 40px;
   font-size: 12px;

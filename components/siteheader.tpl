@@ -3,8 +3,9 @@
     <meta name="copyright" content="{{ site.copyright }}" />
 	<meta name="author" content="{{ site.author }}" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
     {% if site.search.enabled %}{% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}{% endif %}
-	{% stylesheet_link "style.css?tallinn3" %}
+	{% stylesheet_link "style.css?tallinn6" %}
 	{% stylesheet_link "museo.css?tallinn" %}
 	{% if editmode %}{% stylesheet_link "assets/admin/editmode.css" static_host="true" %}{% endif %}
 <!--[if lt IE 7}>{% stylesheet_link "ie6.css?tallinn" %}<![endif]-->
