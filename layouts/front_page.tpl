@@ -6,7 +6,7 @@
 {% include "SiteHeader" %}
 </head>
 
-<body id="front">
+<body id="front"{% if editmode %} class="editmode"{% endif %}>
 
 <div id="wrap">
 	<div id="header" class="clearfix wrapper">

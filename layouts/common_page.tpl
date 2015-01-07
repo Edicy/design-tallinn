@@ -6,15 +6,15 @@
 {% include "SiteHeader" %}
 </head>
 
-<body id="common">
+<body id="common"{% if editmode %} class="editmode"{% endif %}>
 
 <div id="wrap">
 	<div id="header" class="clearfix wrapper">
-   
+
    {% include "Search" %}
      {% include "Langmenu" %}
   {% include "Mainmenu" %}
-  
+
 
 	</div>
 	<div id="greenheader" class="edicy-dt-selectable">
@@ -25,7 +25,7 @@
 	</div>
      {% include "MobileMenus" %}
 	<div id="body" class="clearfix wrapper">
-   
+
   <div class="content-block left clearfix">
    {% content %}
   </div>
@@ -33,7 +33,7 @@
    {% include "Submenu" %}
    {% include "News" %}
   </div>
-  
+
 	</div>
 	{% include "Footer" %}
 </div>
