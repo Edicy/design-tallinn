@@ -1,1 +1,264 @@
-{"layouts":[{"component":true,"title":"Mainmenu","layout_name":"component","content_type":"component","file":"components/mainmenu.tpl"},{"component":true,"title":"Search","layout_name":"component","content_type":"component","file":"components/search.tpl"},{"component":true,"title":"Langmenu","layout_name":"component","content_type":"component","file":"components/langmenu.tpl"},{"component":true,"title":"News","layout_name":"component","content_type":"component","file":"components/news.tpl"},{"component":true,"title":"Footer","layout_name":"component","content_type":"component","file":"components/footer.tpl"},{"component":true,"title":"Submenu","layout_name":"content","content_type":"component","file":"components/submenu.tpl"},{"component":true,"title":"JS","layout_name":"component","content_type":"component","file":"components/js.tpl"},{"component":true,"title":"SiteHeader","layout_name":"component","content_type":"component","file":"components/siteheader.tpl"},{"component":false,"title":"Front page","layout_name":"page_front","content_type":"page","file":"layouts/front_page.tpl"},{"component":false,"title":"Common page","layout_name":"page_default","content_type":"page","file":"layouts/common_page.tpl"},{"component":false,"title":"Blog & News","layout_name":"blog","content_type":"blog","file":"layouts/blog___news.tpl"},{"component":false,"title":"Blog article","layout_name":"","content_type":"blog_article","file":"layouts/blog_article.tpl"},{"component":true,"title":"MobileMenus","layout_name":"","content_type":"component","file":"components/mobilemenus.tpl"}],"name":"Tallinn","author":"T\u00f5nu Runnel","assets":[{"kind":"images","content_type":"image/gif","filename":"h3-line.gif","file":"images/h3-line.gif"},{"kind":"images","content_type":"image/gif","filename":"greenheader.gif","file":"images/greenheader.gif"},{"kind":"images","content_type":"image/gif","filename":"h3-line-dark.gif","file":"images/h3-line-dark.gif"},{"kind":"images","content_type":"image/gif","filename":"quote.gif","file":"images/quote.gif"},{"kind":"images","content_type":"image/png","filename":"mainmenu-spike.png","file":"images/mainmenu-spike.png"},{"kind":"images","content_type":"image/png","filename":"shadow-bottom.png","file":"images/shadow-bottom.png"},{"kind":"images","content_type":"image/gif","filename":"search.gif","file":"images/search.gif"},{"kind":"images","content_type":"image/gif","filename":"bullet.gif","file":"images/bullet.gif"},{"kind":"stylesheets","content_type":"text/css","filename":"ie.css","file":"stylesheets/ie.css"},{"kind":"assets","content_type":"font/eot","filename":"museo300-regular-webfont-webfont.eot","file":"assets/museo300-regular-webfont-webfont.eot"},{"kind":"images","content_type":"unknown/unknown","filename":"museo500-regular-webfont-webfont.svg","file":"images/museo500-regular-webfont-webfont.svg"},{"kind":"images","content_type":"unknown/unknown","filename":"museo300-regular-webfont-webfont.svg","file":"images/museo300-regular-webfont-webfont.svg"},{"kind":"images","content_type":"unknown/unknown","filename":"museo700-regular-webfont-webfont.svg","file":"images/museo700-regular-webfont-webfont.svg"},{"kind":"assets","content_type":"font/eot","filename":"museo700-regular-webfont-webfont.eot","file":"assets/museo700-regular-webfont-webfont.eot"},{"kind":"assets","content_type":"font/eot","filename":"museo500-regular-webfont-webfont.eot","file":"assets/museo500-regular-webfont-webfont.eot"},{"kind":"images","content_type":"image/jpeg","filename":"greenheader-bg.jpg","file":"images/greenheader-bg.jpg"},{"kind":"images","content_type":"image/png","filename":"shadow.png","file":"images/shadow.png"},{"kind":"images","content_type":"image/png","filename":"bullet.png","file":"images/bullet.png"},{"kind":"stylesheets","content_type":"text/css","filename":"museo.css","file":"stylesheets/museo.css"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"images","content_type":"image/gif","filename":"mainmenu-spike.gif","file":"images/mainmenu-spike.gif"},{"kind":"stylesheets","content_type":"text/css","filename":"ie6.css","file":"stylesheets/ie6.css"},{"kind":"images","content_type":"image/png","filename":"header-tag.png","file":"images/header-tag.png"},{"kind":"images","content_type":"image/svg+xml","filename":"header-tag.svg","file":"images/header-tag.svg"},{"kind":"images","content_type":"image/png","filename":"tag.png","file":"images/tag.png"},{"kind":"javascripts","content_type":"text/javascript","filename":"modernizr.js","file":"javascripts/modernizr.js"},{"kind":"images","content_type":"image/svg+xml","filename":"tag.svg","file":"images/tag.svg"}],"preview_medium":"http://static.edicy.com/designs/previews/tallinn_medium.jpg","preview_small":"http://static.edicy.com/designs/previews/tallinn_small.jpg","description":"Tallinn"}
+{
+  "description": "Tallinn",
+  "name": "Tallinn",
+  "preview_medium": "http://static.edicy.com/designs/previews/tallinn_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/tallinn_small.jpg",
+  "author": "Tõnu Runnel",
+  "layouts": [
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/footer.tpl",
+      "layout_name": "footer",
+      "title": "footer"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mobilemenus.tpl",
+      "layout_name": "mobilemenus",
+      "title": "mobilemenus"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/museo300-regular-webfont-webfont.eot",
+      "kind": "assets",
+      "filename": "museo300-regular-webfont-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/museo300-regular-webfont-webfont.svg",
+      "kind": "assets",
+      "filename": "museo300-regular-webfont-webfont.svg"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/museo500-regular-webfont-webfont.eot",
+      "kind": "assets",
+      "filename": "museo500-regular-webfont-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/museo500-regular-webfont-webfont.svg",
+      "kind": "assets",
+      "filename": "museo500-regular-webfont-webfont.svg"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/museo700-regular-webfont-webfont.eot",
+      "kind": "assets",
+      "filename": "museo700-regular-webfont-webfont.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/museo700-regular-webfont-webfont.svg",
+      "kind": "assets",
+      "filename": "museo700-regular-webfont-webfont.svg"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/header-tag.svg",
+      "kind": "assets",
+      "filename": "header-tag.svg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bullet.gif",
+      "kind": "images",
+      "filename": "bullet.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/bullet.png",
+      "kind": "images",
+      "filename": "bullet.png"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/greenheader-bg.jpg",
+      "kind": "images",
+      "filename": "greenheader-bg.jpg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/greenheader.gif",
+      "kind": "images",
+      "filename": "greenheader.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/h3-line-dark.gif",
+      "kind": "images",
+      "filename": "h3-line-dark.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/h3-line.gif",
+      "kind": "images",
+      "filename": "h3-line.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu-spike.gif",
+      "kind": "images",
+      "filename": "mainmenu-spike.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/mainmenu-spike.png",
+      "kind": "images",
+      "filename": "mainmenu-spike.png"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/quote.gif",
+      "kind": "images",
+      "filename": "quote.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/search.gif",
+      "kind": "images",
+      "filename": "search.gif"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/shadow-bottom.png",
+      "kind": "images",
+      "filename": "shadow-bottom.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/shadow.png",
+      "kind": "images",
+      "filename": "shadow.png"
+    },
+    {
+      "content_type": "image/png",
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png"
+    },
+    {
+      "content_type": "application/javascript",
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/ie.css",
+      "kind": "stylesheets",
+      "filename": "ie.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/ie6.css",
+      "kind": "stylesheets",
+      "filename": "ie6.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/museo.css",
+      "kind": "stylesheets",
+      "filename": "museo.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
+}
