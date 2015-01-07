@@ -29,7 +29,7 @@
     {% include "MobileMenus" %}
 <div id="body" class="clearfix wrapper">
 
-  <div class="content-block left clearfix">
+  <div class="content-block left clearfix" data-search-indexing-allowed="true">
    <div class="excerpt clearfix">
     {% editable article.excerpt %}
    </div>
@@ -38,13 +38,13 @@
    {% content %}
 
    {% if editmode %}
-            <div class="cfx article-tags">
+            <div class="cfx article-tags" data-search-indexing-allowed="false">
                 <div class="article-tag-icon"></div>
                 {% editable article.tags %}
             </div>
           {% else %}
             {% unless article.tags == empty %}
-                <div class="cfx article-tags">
+                <div class="cfx article-tags" data-search-indexing-allowed="false">
                     <div class="article-tag-icon"></div>
                     {% for tag in article.tags %}
                         <a href="{{ article.page.url }}/tagged/{{ tag.path }}">{{ tag.name }}</a>{% unless forloop.last %}, {% endunless %}
@@ -53,8 +53,8 @@
             {% endunless %}
         {% endif %}
 
-   <a name="comments"></a>
-   <div class="comments">
+   <a name="comments" data-search-indexing-allowed="false"></a>
+   <div class="comments" data-search-indexing-allowed="false">
      <h3>{% case article.comments_count %}{% when 0 %}{{"no_comments"|lc}}{% else %}{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">
        {{article.comments_count}}</span>{% endcase %}</h3>
     <ul>{% for comment in article.comments %}

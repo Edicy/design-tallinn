@@ -17,9 +17,9 @@
 	<div id="greenheader">
   <div class="clearfix wrapper">
    <h1 id="logo" class="clearfix limited-width-heading">{% editable site.header %}</h1>
-   <h2 class="clearfix limited-width-heading">{% content name="slogan" %}</h2>
+   <h2 class="clearfix limited-width-heading" data-search-indexing-allowed="true">{% content name="slogan" %}</h2>
    <div class="clearfix front-content">
-    <div class="content-block left clearfix">
+    <div class="content-block left clearfix" data-search-indexing-allowed="true">
      {% content %}
     </div>
     <div class="sidebar right">
