@@ -105,7 +105,7 @@
       "filename": "header-tag.svg"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/museo300-regular-webfont-webfont.eot",
       "kind": "assets",
       "filename": "museo300-regular-webfont-webfont.eot"
@@ -117,7 +117,7 @@
       "filename": "museo300-regular-webfont-webfont.svg"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/museo500-regular-webfont-webfont.eot",
       "kind": "assets",
       "filename": "museo500-regular-webfont-webfont.eot"
@@ -129,7 +129,7 @@
       "filename": "museo500-regular-webfont-webfont.svg"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "font/eot",
       "file": "assets/museo700-regular-webfont-webfont.eot",
       "kind": "assets",
       "filename": "museo700-regular-webfont-webfont.eot"
