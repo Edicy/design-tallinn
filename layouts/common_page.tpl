@@ -20,16 +20,16 @@
 	<div id="greenheader" class="edicy-dt-selectable">
   <div class="clearfix wrapper">
    <h1 id="logo" class="clearfix">{% editable site.header %}</h1>
-   <h2 class="clearfix" data-search-indexing-allowed="true">{% content name="slogan" %}</h2>
+   <h2 class="clearfix content-hyphenate" data-search-indexing-allowed="true">{% content name="slogan" %}</h2>
   </div>
 	</div>
      {% include "MobileMenus" %}
 	<div id="body" class="clearfix wrapper">
 
-  <div class="content-block left clearfix" data-search-indexing-allowed="true">
+  <div class="content-block left clearfix content-hyphenate" data-search-indexing-allowed="true">
    {% content %}
   </div>
-   <div class="sidebar right">
+   <div class="sidebar right content-hyphenate">
    {% include "Submenu" %}
    {% include "News" %}
   </div>

@@ -29,7 +29,7 @@
     {% include "MobileMenus" %}
 <div id="body" class="clearfix wrapper">
 
-  <div class="content-block left clearfix" data-search-indexing-allowed="true">
+  <div class="content-block left clearfix content-hyphenate" data-search-indexing-allowed="true">
    <div class="excerpt clearfix">
     {% editable article.excerpt %}
    </div>
@@ -57,7 +57,7 @@
    <div class="comments" data-search-indexing-allowed="false">
      <h3>{% case article.comments_count %}{% when 0 %}{{"no_comments"|lc}}{% else %}{{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">
        {{article.comments_count}}</span>{% endcase %}</h3>
-    <ul>{% for comment in article.comments %}
+    <ul class="content-hyphenate">{% for comment in article.comments %}
      <li class="edy-site-blog-comment">
       <strong class="comment-author">{{comment.author}} <span class="comment-date">{{comment.created_at | format_date:"short"}}</span></strong>{% removebutton %}
       <p class="comment-body">

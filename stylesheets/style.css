@@ -44,6 +44,14 @@ img {
   hyphens: auto;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 .clearfix:after {
   content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
 }
@@ -732,3 +740,9 @@ body .add-article {
 textarea, input {outline: none;}
 
 html {  -webkit-text-size-adjust: none;	}
+
+#blog .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  line-height: 0 !important;
+}

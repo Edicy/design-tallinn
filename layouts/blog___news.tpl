@@ -21,7 +21,7 @@
 <div id="greenheader" class="edicy-dt-selectable">
   <div class="clearfix wrapper">
    <h1 id="logo" class="clearfix">{% editable site.header %}</h1>
-   <h2 class="clearfix" data-search-indexing-allowed="true">{% content name="slogan" %}</h2>
+   <h2 class="clearfix content-hyphenate" data-search-indexing-allowed="true">{% content name="slogan" %}</h2>
   </div>
 </div>
   {% include "MobileMenus" %}
@@ -41,7 +41,7 @@
 
 
    {% addbutton class="add-article" %}
-   <ul id="bloglist">{% for article in articles %}
+   <ul id="bloglist" class="content-hyphenate">{% for article in articles %}
     <li>
      <h2><a href="{{article.url}}">{{article.title}}</a> <span class="date">{{article.created_at | format_date:"short"}}, {{article.created_at | format_date:"%Y"}}</span></h2>
      {{article.excerpt}}
